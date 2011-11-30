@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:id="@+id/mapFrame"
+  android:weightSum="1.0"
+  android:background="@color/background">
+  	<TextView
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:layout_weight="0.05"
+  		android:text="Centrera platsen där överträdelsen hände"
+  		android:gravity="center"/>
+	<com.google.android.maps.MapView
+		android:id="@+id/map"
+		android:apiKey="0R92tYt17E1vavFgw8U95Tpl9uzqd_98M7VrdfQ"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:layout_weight="0.9"/>
+	<Button
+		android:id="@+id/longLatBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.05"
+		android:text="Hämta Long Latitude från Centrering"/>
+</LinearLayout>

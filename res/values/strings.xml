@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidPark</string>
+    <string name="welcome">Droid Park Service</string>
+    <string name="reportBtnLabel">Rapportera</string>
+    <string name="latestReportBtnLabel">Senaste Rapportering</string>
+    <string name="adressLabel">P-område/plats</string>
+    <string name="mapBtnLabel">Karta</string>
+    <string name="dateInput">Datum då dådet inträffade</string>
+    <string name="timeStartInput">Starttid för övervakning</string>
+    <string name="timeEndInput">Sluttid för övervakning</string>
+    <string name="regNumLabel">Registreringsnummer</string>
+    <string name="carTypeLabel">Bilmärke</string>
+    <string name="carModelLabel">Bilmodell</string>
+    <string name="yearMakeLabel">Årsmodell</string>
+    <string name="errorCodeLabel">Överträdelsepunkt</string>
+    <string name="errorCode_prompt">Överträdelsepunkt</string>
+    <string-array name="errorCode_array">
+        <item>20</item>
+        <item>21</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>50</item>
+    </string-array>
+    <string name="feeLabel">Avgift i kronor</string>
+    <string name="dutyNumLabel">Tjänstgöringsnummer</string>
+    <string name="sendFormLabel">Anmäl!</string>
+</resources>
